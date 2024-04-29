@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Arimo);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+/* ------------------------------------------------ */
+html {
+	scrollbar-color: orange black;
+}
+::-webkit-scrollbar {
+	width: 16px;
+}
+::-webkit-scrollbar-track {
+	background: black;
+}
+::-webkit-scrollbar-thumb {
+	background: orange;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
+	}
+}
+body {
+	background-color: #23252f;
+	animation: 1s ease-in 0s 1 fadeIn;
+}
+/* ------------------------------------------------ */
+.navigation-contents {
+	display: flex;
+	font-family: "Arimo";
+}
+.navigation-contents a {
+	color: #faac04;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 35px;
+	margin-left: 20px;
+	margin-top: 20px;
+	transition: 0.3s ease-in-out;
+}
+.navigation-contents a:hover {
+	color: white;
+}
+/* -- */
+.navigation-contents-today {
+	display: flex;
+	font-family: "Arimo";
+	flex-direction: column;
+	text-align: center;
+	margin-top: 250px;
+}
+.navigation-contents-today a {
+	color: #faac04;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 50px;
+	margin-left: 20px;
+	margin-top: 30px;
+	transition: 0.3s ease-in-out;
+}
+.navigation-contents-today a:hover {
+	color: white;
+}
+/* -- */
+.navigation-contents-standings {
+	display: flex;
+	font-family: "Arimo";
+	flex-direction: column;
+	text-align: center;
+	margin-top: 250px;
+}
+.navigation-contents-standings a {
+	color: #faac04;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 50px;
+	margin-left: 20px;
+	margin-top: 30px;
+	transition: 0.3s ease-in-out;
+}
+.navigation-contents-standings a:hover {
+	color: white;
+}
+/* ------------------------------------------------ */
+.today {
+	color: white;
+}

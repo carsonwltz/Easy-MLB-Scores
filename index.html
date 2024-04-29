@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-</head>
-<body>
-  <div id="display-data"></div>
-  <script src="/stats.js"></script>
-  </body>
+	<head>
+		<!-- Page Encoding -->
+		<meta charset="UTF-8" />
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="/styles.css" />
+		<!-- Page Title -->
+		<title>Easy MLB Scores: Today's Games</title>
+		<!-- Meta Tags -->
+		<meta name="title" content="Easy MLB Scores: Today's Games" />
+		<meta name="description" content="Simple & efficient MLB scores viewer" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:url" content="" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Easy MLB Scores: Today's Games" />
+		<meta
+			property="og:description"
+			content="Simple & efficient MLB scores viewer"
+		/>
+		<meta property="og:image" content="" />
+		<!-------------------------------------------------------------------------------->
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="navigation-contents">
+				<a
+					class="navigation-contents-today"
+					href="/index.html"
+					style="color: white"
+					>Today's Games</a
+				>
+				<a class="navigation-contents-standings" href="/standings.html"
+					>Standings</a
+				>
+			</div>
+		</nav>
+		<div class="today">
+			<div id="awayTeamName1"></div>
+			<div id="homeTeamName1"></div>
+			<div id="gameTime1">
+				<div id="gameTime1AMPM"></div>
+			</div>
+		</div>
+		<script src="/stats.js"></script>
+	</body>
 </html>
