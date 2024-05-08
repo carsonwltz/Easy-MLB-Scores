@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Arimo);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat);
+@import url(https://fonts.googleapis.com/css2?family=Radio+Canada+Big);
 /* ------------------------------------------------ */
 html {
 	scrollbar-color: orange black;
@@ -29,7 +30,7 @@ body {
 /* ------------------------------------------------ */
 .navigation-contents {
 	display: flex;
-	font-family: "Arimo";
+	font-family: "Radio Canada Big";
 }
 .navigation-contents a {
 	color: #faac04;
@@ -38,55 +39,38 @@ body {
 	padding: 20px;
 	font-size: 35px;
 	margin-left: 20px;
-	margin-top: 20px;
 	transition: 0.3s ease-in-out;
 }
 .navigation-contents a:hover {
 	color: white;
 }
-/* -- */
-.navigation-contents-today {
-	display: flex;
-	font-family: "Arimo";
-	flex-direction: column;
-	text-align: center;
-	margin-top: 250px;
-}
-.navigation-contents-today a {
-	color: #faac04;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 20px;
-	font-size: 50px;
-	margin-left: 20px;
-	margin-top: 30px;
-	transition: 0.3s ease-in-out;
-}
-.navigation-contents-today a:hover {
-	color: white;
-}
-/* -- */
-.navigation-contents-standings {
-	display: flex;
-	font-family: "Arimo";
-	flex-direction: column;
-	text-align: center;
-	margin-top: 250px;
-}
-.navigation-contents-standings a {
-	color: #faac04;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 20px;
-	font-size: 50px;
-	margin-left: 20px;
-	margin-top: 30px;
-	transition: 0.3s ease-in-out;
-}
-.navigation-contents-standings a:hover {
-	color: white;
-}
 /* ------------------------------------------------ */
 .today {
 	color: white;
+	font-family: "Radio Canada Big";
+	padding: 20px;
+	margin-left: 20px;
+}
+.game1 {
+	width: 400px;
+	height: 180px;
+	background-color: rgba(0, 0, 0, 60%);
+	border-radius: 10px;
+}
+.game1Names {
+	padding: 20px;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.game1Scores {
+	font-size: 35px;
+	display: flex;
+	justify-content: space-around;
+}
+.game1Times {
+	padding: 20px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
 }

@@ -47,11 +47,30 @@ function displayData(data) {
 			const heading3 = document.createElement("span");
 			const heading4 = document.createElement("span");
 			heading3.innerHTML = gameTime1;
-			homeTeam1Div.appendChild(heading3);
+			gameTime1Div.appendChild(heading3);
 			heading4.innerHTML = gameTime1AMPM;
 			gameTime1AMPMDiv.appendChild(heading4);
 		})
 		.catch((error) => {
 			console.error("FETCH ERROR:", error);
 		});
+	//Away Team Score #1
+	const awayTeamScore1 = data.dates[0].games[0].teams.away.score;
+	const awayTeamScoreDiv1 = document.getElementById("awayTeamScore1");
+	const heading5 = document.createElement("span");
+	if (awayTeamScore1 == undefined) awayTeamScore1 = "";
+	heading5.innerHTML = awayTeamScore1;
+	awayTeamScoreDiv1.appendChild(heading5);
+	//Home Team Score #1
+	const homeTeamScore1 = data.dates[0].games[0].teams.home.score;
+	const homeTeamScoreDiv1 = document.getElementById("homeTeamScore1");
+	const heading6 = document.createElement("span");
+	heading6.innerHTML = homeTeamScore1;
+	homeTeamScoreDiv1.appendChild(heading6);
+	// Game Status #1
+	const gameStatus1 = data.dates[0].games[0].status.detailedState;
+	const gameStatusDiv1 = document.getElementById("gameStatus1");
+	const heading7 = document.createElement("span");
+	heading7.innerHTML = gameStatus1;
+	gameStatusDiv1.appendChild(heading7);
 }
