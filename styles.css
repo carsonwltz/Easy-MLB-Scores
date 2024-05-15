@@ -24,7 +24,7 @@ html {
 	}
 }
 body {
-	background-color: #23252f;
+	background-color: black;
 	animation: 1s ease-in 0s 1 fadeIn;
 }
 /* ------------------------------------------------ */
@@ -46,7 +46,7 @@ body {
 }
 /* ------------------------------------------------ */
 .today {
-	color: white;
+	color: #faac04;
 	font-family: "Radio Canada Big";
 	padding: 20px;
 	margin-left: 20px;
@@ -54,12 +54,12 @@ body {
 	justify-content: space-evenly;
 }
 /* ------------------------------------------------ */
-
 .game1 {
 	width: 550px;
 	height: 180px;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
+	border: solid 2px white;
 }
 .game1Names {
 	padding: 20px;
@@ -84,6 +84,7 @@ body {
 	height: 180px;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
+	border: solid 2px white;
 }
 .game2Names {
 	padding: 20px;
@@ -108,6 +109,7 @@ body {
 	height: 180px;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
+	border: solid 2px white;
 }
 .game3Names {
 	padding: 20px;
@@ -126,3 +128,4 @@ body {
 	display: flex;
 	justify-content: center;
 }
+/* ------------------------------------------------ */
