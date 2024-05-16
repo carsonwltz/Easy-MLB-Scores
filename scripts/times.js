@@ -8,7 +8,6 @@ fetch("https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1")
 		}
 	})
 	.then(function (data) {
-		console.log(data);
 		displayData4(data);
 	})
 	.catch((error) => {
@@ -30,12 +29,12 @@ function displayData4(data) {
 			const gameTime1AMPM = data.gameData.datetime.ampm;
 			const gameTime1Div = document.getElementById("gameTime1");
 			const gameTime1AMPMDiv = document.getElementById("gameTime1AMPM");
-			const heading3 = document.createElement("span");
-			const heading4 = document.createElement("span");
-			heading3.innerHTML = gameTime1;
-			gameTime1Div.appendChild(heading3);
-			heading4.innerHTML = gameTime1AMPM;
-			gameTime1AMPMDiv.appendChild(heading4);
+			const heading1 = document.createElement("span");
+			const heading2 = document.createElement("span");
+			heading1.innerHTML = gameTime1;
+			gameTime1Div.appendChild(heading1);
+			heading2.innerHTML = gameTime1AMPM;
+			gameTime1AMPMDiv.appendChild(heading2);
 		})
 		.catch((error) => {
 			console.error("FETCH ERROR:", error);
@@ -55,12 +54,12 @@ function displayData4(data) {
 			const gameTime2AMPM = data.gameData.datetime.ampm;
 			const gameTime2Div = document.getElementById("gameTime2");
 			const gameTime2AMPMDiv = document.getElementById("gameTime2AMPM");
-			const heading10 = document.createElement("span");
-			const heading11 = document.createElement("span");
-			heading10.innerHTML = gameTime2;
-			gameTime2Div.appendChild(heading10);
-			heading11.innerHTML = gameTime2AMPM;
-			gameTime2AMPMDiv.appendChild(heading11);
+			const heading3 = document.createElement("span");
+			const heading4 = document.createElement("span");
+			heading3.innerHTML = gameTime2;
+			gameTime2Div.appendChild(heading3);
+			heading4.innerHTML = gameTime2AMPM;
+			gameTime2AMPMDiv.appendChild(heading4);
 		})
 		.catch((error) => {
 			console.error("FETCH ERROR:", error);
@@ -80,12 +79,12 @@ function displayData4(data) {
 			const gameTime3AMPM = data.gameData.datetime.ampm;
 			const gameTime3Div = document.getElementById("gameTime3");
 			const gameTime3AMPMDiv = document.getElementById("gameTime3AMPM");
-			const heading17 = document.createElement("span");
-			const heading18 = document.createElement("span");
-			heading17.innerHTML = gameTime3;
-			gameTime3Div.appendChild(heading17);
-			heading18.innerHTML = gameTime3AMPM;
-			gameTime3AMPMDiv.appendChild(heading18);
+			const heading5 = document.createElement("span");
+			const heading6 = document.createElement("span");
+			heading5.innerHTML = gameTime3;
+			gameTime3Div.appendChild(heading5);
+			heading6.innerHTML = gameTime3AMPM;
+			gameTime3AMPMDiv.appendChild(heading6);
 		})
 		.catch((error) => {
 			console.error("FETCH ERROR:", error);
