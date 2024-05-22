@@ -39,7 +39,7 @@ body {
 	padding: 20px;
 	font-size: 35px;
 	margin-left: 20px;
-	transition: 0.3s ease-in-out;
+	transition: 0.25s ease-in-out;
 }
 .navigation-contents a:hover {
 	color: white;
@@ -51,7 +51,7 @@ body {
 	padding: 20px;
 	margin-left: 20px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 /* ------------------------------------------------ */
 .game1 {
@@ -60,6 +60,11 @@ body {
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
+	transition: transform 0.25s;
+}
+.game1:hover {
+	transform: scale(1.05);
+	border: solid 2px #faac04;
 }
 .game1Names {
 	padding: 20px;
@@ -78,6 +83,11 @@ body {
 	display: flex;
 	justify-content: center;
 }
+.game1 a {
+	text-decoration: none;
+	color: #faac04;
+	font-family: "Radio Canada Big";
+}
 /* ------------------------------------------------ */
 .game2 {
 	width: 550px;
@@ -85,6 +95,11 @@ body {
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
+	transition: transform 0.25s;
+}
+.game2:hover {
+	transform: scale(1.05);
+	border: solid 2px #faac04;
 }
 .game2Names {
 	padding: 20px;
@@ -103,6 +118,11 @@ body {
 	display: flex;
 	justify-content: center;
 }
+.game2 a {
+	text-decoration: none;
+	color: #faac04;
+	font-family: "Radio Canada Big";
+}
 /* ------------------------------------------------ */
 .game3 {
 	width: 550px;
@@ -110,6 +130,11 @@ body {
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
+	transition: transform 0.25s;
+}
+.game3:hover {
+	transform: scale(1.05);
+	border: solid 2px #faac04;
 }
 .game3Names {
 	padding: 20px;
@@ -127,5 +152,10 @@ body {
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
+}
+.game3 a {
+	text-decoration: none;
+	color: #faac04;
+	font-family: "Radio Canada Big";
 }
 /* ------------------------------------------------ */
