@@ -15,8 +15,7 @@ fetch("https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1")
 	});
 function displayData4(data) {
 	// Game Time #1
-	if (data.dates[0].games[2].status.detailedState === "Final") {
-	} else {
+	if (data.dates[0].games[0].status.abstractGameCode === "P") {
 		const gamePk1 = data.dates[0].games[0].gamePk;
 		fetch(`https://statsapi.mlb.com/api/v1.1/game/${gamePk1}/feed/live`)
 			.then((response) => {
@@ -41,10 +40,10 @@ function displayData4(data) {
 			.catch((error) => {
 				console.error("FETCH ERROR:", error);
 			});
+	} else {
 	}
 	// Game Time #2
-	if (data.dates[0].games[2].status.detailedState === "Final") {
-	} else {
+	if (data.dates[0].games[1].status.abstractGameCode === "P") {
 		const gamePk2 = data.dates[0].games[1].gamePk;
 		fetch(`https://statsapi.mlb.com/api/v1.1/game/${gamePk2}/feed/live`)
 			.then((response) => {
@@ -69,10 +68,10 @@ function displayData4(data) {
 			.catch((error) => {
 				console.error("FETCH ERROR:", error);
 			});
+	} else {
 	}
 	// Game Time #3
-	if (data.dates[0].games[2].status.detailedState === "Final") {
-	} else {
+	if (data.dates[0].games[2].status.abstractGameCode === "P") {
 		const gamePk3 = data.dates[0].games[2].gamePk;
 		fetch(`https://statsapi.mlb.com/api/v1.1/game/${gamePk3}/feed/live`)
 			.then((response) => {
@@ -97,5 +96,6 @@ function displayData4(data) {
 			.catch((error) => {
 				console.error("FETCH ERROR:", error);
 			});
+	} else {
 	}
 }

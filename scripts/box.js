@@ -17,7 +17,7 @@ function displayData5(data) {
 	// Box #1
 	const gamePk1 = data.dates[0].games[0].gamePk;
 	const gameBoxDiv1 = document.getElementById("gameBox1");
-	if (data.dates[0].games[0].status.detailedState === "Scheduled") {
+	if (data.dates[0].games[0].status.abstractGameCode === "P") {
 		gameBoxDiv1.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[0].status.detailedState === "Final") {
@@ -35,7 +35,7 @@ function displayData5(data) {
 	// Box #2
 	const gamePk2 = data.dates[0].games[1].gamePk;
 	const gameBoxDiv2 = document.getElementById("gameBox2");
-	if (data.dates[0].games[1].status.detailedState === "Scheduled") {
+	if (data.dates[0].games[1].status.abstractGameCode === "P") {
 		gameBoxDiv2.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[1].status.detailedState === "Final") {
@@ -53,7 +53,7 @@ function displayData5(data) {
 	// Box #3
 	const gamePk3 = data.dates[0].games[2].gamePk;
 	const gameBoxDiv3 = document.getElementById("gameBox3");
-	if (data.dates[0].games[2].status.detailedState === "Scheduled") {
+	if (data.dates[0].games[2].status.abstractGameCode === "P") {
 		gameBoxDiv3.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[2].status.detailedState === "Final") {

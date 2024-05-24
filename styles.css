@@ -26,6 +26,7 @@ html {
 body {
 	background-color: black;
 	animation: 1s ease-in 0s 1 fadeIn;
+	padding: 20px;
 }
 /* ------------------------------------------------ */
 .navigation-contents {
@@ -36,26 +37,40 @@ body {
 	color: #faac04;
 	text-decoration: none;
 	font-weight: bold;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-size: 35px;
-	margin-left: 20px;
 	transition: 0.25s ease-in-out;
 }
 .navigation-contents a:hover {
 	color: white;
 }
+
 /* ------------------------------------------------ */
-.today {
+.intro {
 	color: #faac04;
 	font-family: "Radio Canada Big";
-	padding: 20px;
-	margin-left: 20px;
+	font-size: 15px;
+	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+/* ------------------------------------------------ */
+.scores {
+	color: #faac04;
+	font-family: "Radio Canada Big";
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 /* ------------------------------------------------ */
 .game1 {
-	width: 550px;
+	width: 580px;
 	height: 180px;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
@@ -67,7 +82,8 @@ body {
 	border: solid 2px #faac04;
 }
 .game1Names {
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -78,7 +94,7 @@ body {
 	justify-content: space-around;
 }
 .game1Times {
-	padding: 20px;
+	padding-top: 20px;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -90,7 +106,7 @@ body {
 }
 /* ------------------------------------------------ */
 .game2 {
-	width: 550px;
+	width: 580px;
 	height: 180px;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
@@ -102,7 +118,8 @@ body {
 	border: solid 2px #faac04;
 }
 .game2Names {
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -113,7 +130,7 @@ body {
 	justify-content: space-around;
 }
 .game2Times {
-	padding: 20px;
+	padding-top: 20px;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -125,7 +142,7 @@ body {
 }
 /* ------------------------------------------------ */
 .game3 {
-	width: 550px;
+	width: 580px;
 	height: 180px;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
@@ -137,7 +154,8 @@ body {
 	border: solid 2px #faac04;
 }
 .game3Names {
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -148,7 +166,7 @@ body {
 	justify-content: space-around;
 }
 .game3Times {
-	padding: 20px;
+	padding-top: 20px;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;

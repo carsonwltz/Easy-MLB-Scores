@@ -6,14 +6,14 @@
 		<!-- CSS Link -->
 		<link rel="stylesheet" href="/styles.css" />
 		<!-- Page Title -->
-		<title>Easy MLB Scores: Today's Games</title>
+		<title>Easy MLB Scores</title>
 		<!-- Meta Tags -->
-		<meta name="title" content="Easy MLB Scores: Today's Games" />
+		<meta name="title" content="Easy MLB Scores" />
 		<meta name="description" content="Simple & efficient MLB scores viewer" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta property="og:url" content="" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Easy MLB Scores: Today's Games" />
+		<meta property="og:title" content="Easy MLB Scores" />
 		<meta
 			property="og:description"
 			content="Simple & efficient MLB scores viewer"
@@ -25,17 +25,21 @@
 		<nav class="navigation">
 			<div class="navigation-contents">
 				<a
-					class="navigation-contents-today"
+					class="navigation-contents-scores"
 					href="/index.html"
 					style="color: white"
-					>Today's Games</a
+					>Scores</a
 				>
 				<a class="navigation-contents-standings" href="/standings.html"
 					>Standings</a
 				>
 			</div>
 		</nav>
-		<div class="today">
+		<div class="intro">
+			<div id="date">Date:‏‏‎ ‎</div>
+			<div id="games">Total Games Today:‏‏‎ ‎</div>
+		</div>
+		<div class="scores">
 			<div class="game1">
 				<a href="#" id="gameBox1">
 					<div class="game1Names">
@@ -92,6 +96,8 @@
 			</div>
 		</div>
 		<script src="/scripts/box.js"></script>
+		<script src="/scripts/date.js"></script>
+		<script src="/scripts/games.js"></script>
 		<script src="/scripts/scores.js"></script>
 		<script src="/scripts/status.js"></script>
 		<script src="/scripts/teams.js"></script>
