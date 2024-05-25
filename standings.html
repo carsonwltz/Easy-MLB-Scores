@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Page Encoding -->
+		<meta charset="UTF-8" />
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="/styles/standings.css" />
+		<!-- Page Title -->
+		<title>Easy MLB Scores: Standings</title>
+		<!-- Meta Tags -->
+		<meta name="title" content="Easy MLB Scores: Standings" />
+		<meta name="description" content="Simple & efficient MLB scores viewer" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:url" content="" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Easy MLB Scores: Standings" />
+		<meta
+			property="og:description"
+			content="Simple & efficient MLB scores viewer"
+		/>
+		<meta property="og:image" content="" />
+		<!-------------------------------------------------------------------------------->
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="navigation-contents">
+				<a class="navigation-contents-scores" href="/index.html">Scores</a>
+				<a
+					class="navigation-contents-standings"
+					href="/standings.html"
+					style="color: white"
+					>Standings</a
+				>
+			</div>
+		</nav>
+		<div class="standings">
+			<div class="ALEast">
+				<div id="ALTeam1"></div>
+			</div>
+		</div>
+		<script src="/scripts/standings/alteams.js"></script>
+		<script src="/scripts/standings/gb.js"></script>
+		<script src="scripts/standings/nlteams.js"></script>
+		<script src="/scripts/standings/winloss.js"></script>
+		<script src="/scripts/standings/winpct.js"></script>
+	</body>
+</html>

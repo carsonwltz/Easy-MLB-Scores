@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css2?family=Arimo);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+@import url(https://fonts.googleapis.com/css2?family=Radio+Canada+Big);
+/* ------------------------------------------------ */
+html {
+	scrollbar-color: orange black;
+}
+::-webkit-scrollbar {
+	width: 16px;
+}
+::-webkit-scrollbar-track {
+	background: black;
+}
+::-webkit-scrollbar-thumb {
+	background: orange;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
+	}
+}
+body {
+	background-color: black;
+	animation: 1s ease-in 0s 1 fadeIn;
+	padding: 20px;
+}
+/* ------------------------------------------------ */
+.navigation-contents {
+	display: flex;
+	font-family: "Radio Canada Big";
+}
+.navigation-contents a {
+	color: #faac04;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 35px;
+	transition: 0.25s ease-in-out;
+}
+.navigation-contents a:hover {
+	color: white;
+}
+
+/* ------------------------------------------------ */
+.standings {
+	color: #faac04;
+	font-family: "Radio Canada Big";
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+}
