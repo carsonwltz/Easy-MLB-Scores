@@ -45,13 +45,20 @@ body {
 .navigation-contents a:hover {
 	color: white;
 }
-
 /* ------------------------------------------------ */
 .standings {
 	color: #faac04;
 	font-family: "Radio Canada Big";
-	display: flex;
-	justify-content: space-between;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+/* ------------------------------------------------ */
+.ALEast {
+	border: solid 2px white;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+#ALTeam1 {
+	padding: 5px;
 }
