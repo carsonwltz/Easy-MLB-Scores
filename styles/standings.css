@@ -51,14 +51,69 @@ body {
 	font-family: "Radio Canada Big";
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 120px;
+	font-size: 20px;
+}
+/* ------------------------------------------------ */
+.AL {
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
 }
 /* ------------------------------------------------ */
 .ALEast {
 	border: solid 2px white;
 	border-radius: 10px;
 	padding: 10px;
-	font-size: 20px;
 }
-#ALTeam1 {
+/* ------------------------------------------------ */
+.ALCentral {
+	border: solid 2px white;
+	border-radius: 10px;
+	padding: 10px;
+}
+#ALTeam6 {
+	padding: 5px;
+}
+/* ------------------------------------------------ */
+.ALWest {
+	border: solid 2px white;
+	border-radius: 10px;
+	padding: 10px;
+}
+#ALTeam11 {
+	padding: 5px;
+}
+/* ------------------------------------------------ */
+.NL {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+/* ------------------------------------------------ */
+.NLEast {
+	border: solid 2px white;
+	border-radius: 10px;
+	padding: 10px;
+}
+#NLTeam1 {
+	padding: 5px;
+}
+/* ------------------------------------------------ */
+.NLCentral {
+	border: solid 2px white;
+	border-radius: 10px;
+	padding: 10px;
+}
+#NLTeam6 {
+	padding: 5px;
+}
+/* ------------------------------------------------ */
+.NLWest {
+	border: solid 2px white;
+	border-radius: 10px;
+	padding: 10px;
+}
+#NLTeam11 {
 	padding: 5px;
 }
