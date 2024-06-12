@@ -67,6 +67,41 @@ body {
 	padding-right: 20px;
 }
 /* ------------------------------------------------ */
+.section1 {
+	display: flex;
+	justify-content: space-between;
+}
+.section2 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.section3 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.section4 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.section5 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.section6 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.section7 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+/* ------------------------------------------------ */
 #game1 {
 	width: 580px;
 	height: 180px;
