@@ -28,8 +28,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning0 = data.liveData.linescore.currentInning;
 				const topbot1 = data.liveData.linescore.inningState;
-				const space1 = (document.getElementById("space1").style.padding =
-					"30px");
 				const inningDiv1 = document.getElementById("inning0");
 				const topbotDiv1 = document.getElementById("topbot1");
 				const heading1 = document.createElement("span");
@@ -58,8 +56,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning1 = data.liveData.linescore.currentInning;
 				const topbot2 = data.liveData.linescore.inningState;
-				const space2 = (document.getElementById("space2").style.padding =
-					"30px");
 				const inningDiv2 = document.getElementById("inning1");
 				const topbotDiv2 = document.getElementById("topbot2");
 				const heading3 = document.createElement("span");
@@ -88,8 +84,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning2 = data.liveData.linescore.currentInning;
 				const topbot3 = data.liveData.linescore.inningState;
-				const space3 = (document.getElementById("space3").style.padding =
-					"30px");
 				const inningDiv3 = document.getElementById("inning2");
 				const topbotDiv3 = document.getElementById("topbot3");
 				const heading5 = document.createElement("span");
@@ -118,8 +112,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning3 = data.liveData.linescore.currentInning;
 				const topbot4 = data.liveData.linescore.inningState;
-				const space4 = (document.getElementById("space4").style.padding =
-					"30px");
 				const inningDiv4 = document.getElementById("inning3");
 				const topbotDiv4 = document.getElementById("topbot4");
 				const heading7 = document.createElement("span");
@@ -148,8 +140,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning4 = data.liveData.linescore.currentInning;
 				const topbot5 = data.liveData.linescore.inningState;
-				const space5 = (document.getElementById("space5").style.padding =
-					"30px");
 				const inningDiv5 = document.getElementById("inning4");
 				const topbotDiv5 = document.getElementById("topbot5");
 				const heading8 = document.createElement("span");
@@ -178,8 +168,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning5 = data.liveData.linescore.currentInning;
 				const topbot6 = data.liveData.linescore.inningState;
-				const space6 = (document.getElementById("space6").style.padding =
-					"30px");
 				const inningDiv6 = document.getElementById("inning5");
 				const topbotDiv6 = document.getElementById("topbot6");
 				const heading9 = document.createElement("span");
@@ -208,8 +196,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning6 = data.liveData.linescore.currentInning;
 				const topbot7 = data.liveData.linescore.inningState;
-				const space7 = (document.getElementById("space7").style.padding =
-					"30px");
 				const inningDiv7 = document.getElementById("inning6");
 				const topbotDiv7 = document.getElementById("topbot7");
 				const heading10 = document.createElement("span");
@@ -238,8 +224,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning7 = data.liveData.linescore.currentInning;
 				const topbot8 = data.liveData.linescore.inningState;
-				const space8 = (document.getElementById("space8").style.padding =
-					"30px");
 				const inningDiv8 = document.getElementById("inning7");
 				const topbotDiv8 = document.getElementById("topbot8");
 				const heading11 = document.createElement("span");
@@ -268,8 +252,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning8 = data.liveData.linescore.currentInning;
 				const topbot9 = data.liveData.linescore.inningState;
-				const space9 = (document.getElementById("space9").style.padding =
-					"30px");
 				const inningDiv9 = document.getElementById("inning8");
 				const topbotDiv9 = document.getElementById("topbot9");
 				const heading12 = document.createElement("span");
@@ -298,8 +280,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning9 = data.liveData.linescore.currentInning;
 				const topbot10 = data.liveData.linescore.inningState;
-				const space10 = (document.getElementById("space10").style.padding =
-					"30px");
 				const inningDiv10 = document.getElementById("inning9");
 				const topbotDiv10 = document.getElementById("topbot10");
 				const heading13 = document.createElement("span");
@@ -328,8 +308,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning10 = data.liveData.linescore.currentInning;
 				const topbot11 = data.liveData.linescore.inningState;
-				const space11 = (document.getElementById("space11").style.padding =
-					"30px");
 				const inningDiv11 = document.getElementById("inning10");
 				const topbotDiv11 = document.getElementById("topbot11");
 				const heading14 = document.createElement("span");
@@ -358,8 +336,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning11 = data.liveData.linescore.currentInning;
 				const topbot12 = data.liveData.linescore.inningState;
-				const space12 = (document.getElementById("space12").style.padding =
-					"30px");
 				const inningDiv12 = document.getElementById("inning11");
 				const topbotDiv12 = document.getElementById("topbot12");
 				const heading15 = document.createElement("span");
@@ -388,8 +364,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning12 = data.liveData.linescore.currentInning;
 				const topbot13 = data.liveData.linescore.inningState;
-				const space13 = (document.getElementById("space13").style.padding =
-					"30px");
 				const inningDiv13 = document.getElementById("inning12");
 				const topbotDiv13 = document.getElementById("topbot13");
 				const heading16 = document.createElement("span");
@@ -418,8 +392,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning13 = data.liveData.linescore.currentInning;
 				const topbot14 = data.liveData.linescore.inningState;
-				const space14 = (document.getElementById("space14").style.padding =
-					"30px");
 				const inningDiv14 = document.getElementById("inning13");
 				const topbotDiv14 = document.getElementById("topbot14");
 				const heading17 = document.createElement("span");
@@ -448,8 +420,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning14 = data.liveData.linescore.currentInning;
 				const topbot15 = data.liveData.linescore.inningState;
-				const space15 = (document.getElementById("space15").style.padding =
-					"30px");
 				const inningDiv15 = document.getElementById("inning14");
 				const topbotDiv15 = document.getElementById("topbot15");
 				const heading18 = document.createElement("span");
@@ -478,8 +448,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning15 = data.liveData.linescore.currentInning;
 				const topbot16 = data.liveData.linescore.inningState;
-				const space16 = (document.getElementById("space16").style.padding =
-					"30px");
 				const inningDiv16 = document.getElementById("inning15");
 				const topbotDiv16 = document.getElementById("topbot16");
 				const heading19 = document.createElement("span");
@@ -508,8 +476,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning16 = data.liveData.linescore.currentInning;
 				const topbot17 = data.liveData.linescore.inningState;
-				const space17 = (document.getElementById("space17").style.padding =
-					"30px");
 				const inningDiv17 = document.getElementById("inning16");
 				const topbotDiv17 = document.getElementById("topbot17");
 				const heading20 = document.createElement("span");
@@ -538,8 +504,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning17 = data.liveData.linescore.currentInning;
 				const topbot18 = data.liveData.linescore.inningState;
-				const space18 = (document.getElementById("space18").style.padding =
-					"30px");
 				const inningDiv18 = document.getElementById("inning17");
 				const topbotDiv18 = document.getElementById("topbot18");
 				const heading21 = document.createElement("span");
@@ -568,8 +532,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning18 = data.liveData.linescore.currentInning;
 				const topbot19 = data.liveData.linescore.inningState;
-				const space19 = (document.getElementById("space19").style.padding =
-					"30px");
 				const inningDiv19 = document.getElementById("inning18");
 				const topbotDiv19 = document.getElementById("topbot19");
 				const heading22 = document.createElement("span");
@@ -598,8 +560,6 @@ function displayData8(data) {
 			if (data.gameData.status.abstractGameState === "Live") {
 				const inning19 = data.liveData.linescore.currentInning;
 				const topbot20 = data.liveData.linescore.inningState;
-				const space20 = (document.getElementById("space20").style.padding =
-					"30px");
 				const inningDiv20 = document.getElementById("inning19");
 				const topbotDiv20 = document.getElementById("topbot20");
 				const heading23 = document.createElement("span");

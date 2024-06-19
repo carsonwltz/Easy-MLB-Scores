@@ -17,7 +17,7 @@ function displayData5(data) {
 	// Box #1
 	const gamePk1 = data.dates[0].games[0].gamePk;
 	const gameBoxDiv1 = document.getElementById("gameBox1");
-	if (data.dates[0].games[0].status.abstractGameCode === "P") {
+	if (data.dates[0].games[0].status.abstractGameCode === "") {
 		gameBoxDiv1.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[0].status.detailedState === "Final") {
@@ -35,7 +35,7 @@ function displayData5(data) {
 	// Box #2
 	const gamePk2 = data.dates[0].games[1].gamePk;
 	const gameBoxDiv2 = document.getElementById("gameBox2");
-	if (data.dates[0].games[1].status.abstractGameCode === "P") {
+	if (data.dates[0].games[1].status.abstractGameCode === "") {
 		gameBoxDiv2.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[1].status.detailedState === "Final") {
@@ -53,7 +53,7 @@ function displayData5(data) {
 	// Box #3
 	const gamePk3 = data.dates[0].games[2].gamePk;
 	const gameBoxDiv3 = document.getElementById("gameBox3");
-	if (data.dates[0].games[2].status.abstractGameCode === "P") {
+	if (data.dates[0].games[2].status.abstractGameCode === "") {
 		gameBoxDiv3.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[2].status.detailedState === "Final") {
@@ -71,7 +71,7 @@ function displayData5(data) {
 	// Box #4
 	const gamePk4 = data.dates[0].games[3].gamePk;
 	const gameBoxDiv4 = document.getElementById("gameBox4");
-	if (data.dates[0].games[3].status.abstractGameCode === "P") {
+	if (data.dates[0].games[3].status.abstractGameCode === "") {
 		gameBoxDiv4.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[3].status.detailedState === "Final") {
@@ -88,7 +88,7 @@ function displayData5(data) {
 	} // Box #5
 	const gamePk5 = data.dates[0].games[4].gamePk;
 	const gameBoxDiv5 = document.getElementById("gameBox5");
-	if (data.dates[0].games[4].status.abstractGameCode === "P") {
+	if (data.dates[0].games[4].status.abstractGameCode === "") {
 		gameBoxDiv5.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[4].status.detailedState === "Final") {
@@ -105,7 +105,7 @@ function displayData5(data) {
 	} // Box #6
 	const gamePk6 = data.dates[0].games[5].gamePk;
 	const gameBoxDiv6 = document.getElementById("gameBox6");
-	if (data.dates[0].games[5].status.abstractGameCode === "P") {
+	if (data.dates[0].games[5].status.abstractGameCode === "") {
 		gameBoxDiv6.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[5].status.detailedState === "Final") {
@@ -122,7 +122,7 @@ function displayData5(data) {
 	} // Box #7
 	const gamePk7 = data.dates[0].games[6].gamePk;
 	const gameBoxDiv7 = document.getElementById("gameBox7");
-	if (data.dates[0].games[6].status.abstractGameCode === "P") {
+	if (data.dates[0].games[6].status.abstractGameCode === "") {
 		gameBoxDiv7.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[6].status.detailedState === "Final") {
@@ -139,7 +139,7 @@ function displayData5(data) {
 	} // Box #8
 	const gamePk8 = data.dates[0].games[7].gamePk;
 	const gameBoxDiv8 = document.getElementById("gameBox8");
-	if (data.dates[0].games[7].status.abstractGameCode === "P") {
+	if (data.dates[0].games[7].status.abstractGameCode === "") {
 		gameBoxDiv8.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[7].status.detailedState === "Final") {
@@ -156,7 +156,7 @@ function displayData5(data) {
 	} // Box #9
 	const gamePk9 = data.dates[0].games[8].gamePk;
 	const gameBoxDiv9 = document.getElementById("gameBox9");
-	if (data.dates[0].games[8].status.abstractGameCode === "P") {
+	if (data.dates[0].games[8].status.abstractGameCode === "") {
 		gameBoxDiv9.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[8].status.detailedState === "Final") {
@@ -174,7 +174,7 @@ function displayData5(data) {
 	// Box #10
 	const gamePk10 = data.dates[0].games[9].gamePk;
 	const gameBoxDiv10 = document.getElementById("gameBox10");
-	if (data.dates[0].games[9].status.abstractGameCode === "P") {
+	if (data.dates[0].games[9].status.abstractGameCode === "") {
 		gameBoxDiv10.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[9].status.detailedState === "Final") {
@@ -191,7 +191,7 @@ function displayData5(data) {
 	} // Box #11
 	const gamePk11 = data.dates[0].games[10].gamePk;
 	const gameBoxDiv11 = document.getElementById("gameBox11");
-	if (data.dates[0].games[10].status.abstractGameCode === "P") {
+	if (data.dates[0].games[10].status.abstractGameCode === "") {
 		gameBoxDiv11.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[10].status.detailedState === "Final") {
@@ -208,7 +208,7 @@ function displayData5(data) {
 	} // Box #12
 	const gamePk12 = data.dates[0].games[11].gamePk;
 	const gameBoxDiv12 = document.getElementById("gameBox12");
-	if (data.dates[0].games[11].status.abstractGameCode === "P") {
+	if (data.dates[0].games[11].status.abstractGameCode === "") {
 		gameBoxDiv12.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[11].status.detailedState === "Final") {
@@ -225,7 +225,7 @@ function displayData5(data) {
 	} // Box #13
 	const gamePk13 = data.dates[0].games[12].gamePk;
 	const gameBoxDiv13 = document.getElementById("gameBox13");
-	if (data.dates[0].games[12].status.abstractGameCode === "P") {
+	if (data.dates[0].games[12].status.abstractGameCode === "") {
 		gameBoxDiv13.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[12].status.detailedState === "Final") {
@@ -242,7 +242,7 @@ function displayData5(data) {
 	} // Box #14
 	const gamePk14 = data.dates[0].games[13].gamePk;
 	const gameBoxDiv14 = document.getElementById("gameBox14");
-	if (data.dates[0].games[13].status.abstractGameCode === "P") {
+	if (data.dates[0].games[13].status.abstractGameCode === "") {
 		gameBoxDiv14.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[13].status.detailedState === "Final") {
@@ -259,7 +259,7 @@ function displayData5(data) {
 	} // Box #15
 	const gamePk15 = data.dates[0].games[14].gamePk;
 	const gameBoxDiv15 = document.getElementById("gameBox15");
-	if (data.dates[0].games[14].status.abstractGameCode === "P") {
+	if (data.dates[0].games[14].status.abstractGameCode === "") {
 		gameBoxDiv15.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[14].status.detailedState === "Final") {
@@ -276,7 +276,7 @@ function displayData5(data) {
 	} // Box #16
 	const gamePk16 = data.dates[0].games[15].gamePk;
 	const gameBoxDiv16 = document.getElementById("gameBox16");
-	if (data.dates[0].games[15].status.abstractGameCode === "P") {
+	if (data.dates[0].games[15].status.abstractGameCode === "") {
 		gameBoxDiv16.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[15].status.detailedState === "Final") {
@@ -293,7 +293,7 @@ function displayData5(data) {
 	} // Box #17
 	const gamePk17 = data.dates[0].games[16].gamePk;
 	const gameBoxDiv17 = document.getElementById("gameBox17");
-	if (data.dates[0].games[16].status.abstractGameCode === "P") {
+	if (data.dates[0].games[16].status.abstractGameCode === "") {
 		gameBoxDiv17.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[16].status.detailedState === "Final") {
@@ -310,7 +310,7 @@ function displayData5(data) {
 	} // Box #18
 	const gamePk18 = data.dates[0].games[17].gamePk;
 	const gameBoxDiv18 = document.getElementById("gameBox18");
-	if (data.dates[0].games[17].status.abstractGameCode === "P") {
+	if (data.dates[0].games[17].status.abstractGameCode === "") {
 		gameBoxDiv18.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[17].status.detailedState === "Final") {
@@ -327,7 +327,7 @@ function displayData5(data) {
 	} // Box #19
 	const gamePk19 = data.dates[0].games[18].gamePk;
 	const gameBoxDiv19 = document.getElementById("gameBox19");
-	if (data.dates[0].games[18].status.abstractGameCode === "P") {
+	if (data.dates[0].games[18].status.abstractGameCode === "") {
 		gameBoxDiv19.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[18].status.detailedState === "Final") {
@@ -344,7 +344,7 @@ function displayData5(data) {
 	} // Box #20
 	const gamePk20 = data.dates[0].games[19].gamePk;
 	const gameBoxDiv20 = document.getElementById("gameBox20");
-	if (data.dates[0].games[19].status.abstractGameCode === "P") {
+	if (data.dates[0].games[19].status.abstractGameCode === "") {
 		gameBoxDiv20.setAttribute("href", `#`);
 	} else {
 		if (data.dates[0].games[19].status.detailedState === "Final") {

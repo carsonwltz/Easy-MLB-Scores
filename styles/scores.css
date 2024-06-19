@@ -26,7 +26,7 @@ html {
 body {
 	background-color: black;
 	animation: 1s ease-in 0s 1 fadeIn;
-	padding: 20px;
+	padding: 1%;
 }
 /* ------------------------------------------------ */
 .navigation-contents {
@@ -37,8 +37,8 @@ body {
 	color: #faac04;
 	text-decoration: none;
 	font-weight: bold;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
 	font-size: 35px;
 	transition: 0.25s ease-in-out;
 }
@@ -54,57 +54,56 @@ body {
 	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
 }
 /* ------------------------------------------------ */
 .scores {
 	color: #faac04;
 	font-family: "Radio Canada Big";
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 /* ------------------------------------------------ */
 .section1 {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 0.5%;
 }
 .section2 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 1%;
 }
 .section3 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 1%;
 }
 .section4 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 1%;
 }
 .section5 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 1%;
 }
 .section6 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 1%;
 }
 .section7 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 1%;
 }
 /* ------------------------------------------------ */
 #game1 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -115,8 +114,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game1Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -137,11 +136,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
-
+#topbot1 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game2 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -152,8 +152,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game2Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -174,10 +174,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot2 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game3 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -188,8 +190,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game3Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -204,16 +206,20 @@ body {
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
 }
 #game3 a {
 	text-decoration: none;
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+
+#topbot3 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game4 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -224,8 +230,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game4Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -246,10 +252,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot4 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game5 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -260,8 +268,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game5Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -282,10 +290,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot5 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game6 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -296,8 +306,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game6Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -318,10 +328,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot6 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game7 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -332,8 +344,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game7Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -354,10 +366,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot7 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game8 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -368,8 +382,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game8Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -390,10 +404,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot8 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game9 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -404,8 +420,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game9Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -426,13 +442,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
-#game9:empty {
-	display: none;
+#topbot9 {
+	padding-right: 2%;
 }
 /* ------------------------------------------------ */
 #game10 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -443,8 +458,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game10Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -465,10 +480,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot10 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game11 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -479,8 +496,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game11Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -501,10 +518,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot11 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game12 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -515,8 +534,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game12Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -537,10 +556,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot12 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game13 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -551,8 +572,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game13Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -573,10 +594,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot13 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game14 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -587,8 +610,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game14Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -609,10 +632,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot14 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game15 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -623,8 +648,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game15Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -645,10 +670,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot15 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game16 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -659,8 +686,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game16Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -681,10 +708,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot16 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game17 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -695,8 +724,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game17Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -717,10 +746,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot17 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game18 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -731,8 +762,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game18Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -753,10 +784,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot18 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game19 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -767,8 +800,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game19Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -789,10 +822,12 @@ body {
 	color: #faac04;
 	font-family: "Radio Canada Big";
 }
+#topbot19 {
+	padding-right: 2%;
+}
 /* ------------------------------------------------ */
 #game20 {
-	width: 580px;
-	height: 180px;
+	width: 32%;
 	background-color: rgba(0, 0, 0, 60%);
 	border-radius: 10px;
 	border: solid 2px white;
@@ -803,8 +838,8 @@ body {
 	border: solid 2px #faac04;
 }
 #game20Names {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 3.5%;
+	padding-bottom: 3%;
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -824,5 +859,130 @@ body {
 	text-decoration: none;
 	color: #faac04;
 	font-family: "Radio Canada Big";
+}
+#topbot20 {
+	padding-right: 2%;
+}
+/* ------------------------------------------------ */
+@media only screen and (max-width: 768px) {
+	.navigation-contents {
+		display: flex;
+		justify-content: space-between;
+		font-family: "Radio Canada Big";
+	}
+}
+/* ------------------------------------------------ */
+@media only screen and (max-width: 768px) {
+	.section1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+	}
+	.section2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+	}
+	.section3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+	}
+	.section4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+	}
+	.section5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+	}
+	.section6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+	}
+	.section7 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+	}
+}
+/* ------------------------------------------------ */
+@media only screen and (max-width: 768px) {
+	#game1 {
+		width: 100%;
+		margin-top: 2%;
+	}
+	#game2 {
+		width: 100%;
+		margin-top: 5%;
+	}
+	#game3 {
+		width: 100%;
+		margin-top: 5%;
+	}
+	#game4 {
+		width: 100%;
+		margin-top: 5%;
+	}
+	#game5 {
+		width: 100%;
+		margin-top: 5%;
+	}
+	#game6 {
+		width: 100%;
+		margin-top: 5%;
+	}
+	#game7 {
+		width: 100%;
+	}
+	#game8 {
+		width: 100%;
+	}
+	#game9 {
+		width: 100%;
+	}
+	#game10 {
+		width: 100%;
+	}
+	#game11 {
+		width: 100%;
+	}
+	#game12 {
+		width: 100%;
+	}
+	#game13 {
+		width: 100%;
+	}
+	#game14 {
+		width: 100%;
+	}
+	#game15 {
+		width: 100%;
+	}
+	#game16 {
+		width: 100%;
+	}
+	#game17 {
+		width: 100%;
+	}
+	#game18 {
+		width: 100%;
+	}
+	#game19 {
+		width: 100%;
+	}
+	#game20 {
+		width: 100%;
+	}
 }
 /* ------------------------------------------------ */
