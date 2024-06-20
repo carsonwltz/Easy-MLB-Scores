@@ -26,7 +26,7 @@ html {
 body {
 	background-color: black;
 	animation: 1s ease-in 0s 1 fadeIn;
-	padding: 20px;
+	padding: 1%;
 }
 /* ------------------------------------------------ */
 .navigation-contents {
@@ -37,8 +37,8 @@ body {
 	color: #faac04;
 	text-decoration: none;
 	font-weight: bold;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
 	font-size: 35px;
 	transition: 0.25s ease-in-out;
 }
@@ -49,14 +49,14 @@ body {
 .standings {
 	color: #faac04;
 	font-family: "Radio Canada Big";
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 120px;
-	font-size: 20px;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 5%;
+	font-size: 24px;
 }
 /* ------------------------------------------------ */
 .AL {
-	padding-bottom: 20px;
+	padding-bottom: 2%;
 	display: flex;
 	justify-content: space-around;
 }
@@ -72,21 +72,15 @@ body {
 	border-radius: 10px;
 	padding: 10px;
 }
-#ALTeam6 {
-	padding: 5px;
-}
 /* ------------------------------------------------ */
 .ALWest {
 	border: solid 2px white;
 	border-radius: 10px;
 	padding: 10px;
 }
-#ALTeam11 {
-	padding: 5px;
-}
 /* ------------------------------------------------ */
 .NL {
-	padding-top: 40px;
+	padding-top: 2%;
 	display: flex;
 	justify-content: space-around;
 }
@@ -96,17 +90,11 @@ body {
 	border-radius: 10px;
 	padding: 10px;
 }
-#NLTeam1 {
-	padding: 5px;
-}
 /* ------------------------------------------------ */
 .NLCentral {
 	border: solid 2px white;
 	border-radius: 10px;
 	padding: 10px;
-}
-#NLTeam6 {
-	padding: 5px;
 }
 /* ------------------------------------------------ */
 .NLWest {
@@ -114,6 +102,41 @@ body {
 	border-radius: 10px;
 	padding: 10px;
 }
-#NLTeam11 {
-	padding: 5px;
+/* ------------------------------------------------ */
+@media only screen and (max-width: 768px) {
+	.navigation-contents {
+		display: flex;
+		justify-content: space-between;
+		font-family: "Radio Canada Big";
+	}
+	.standings {
+		font-size: 19px;
+		margin-top: 2%;
+	}
+	.NL {
+		flex-direction: column;
+		padding-top: 0;
+	}
+	.NLEast {
+		margin-bottom: 8%;
+	}
+	.NLCentral {
+		margin-bottom: 8%;
+	}
+	.NLWest {
+		margin-bottom: 8%;
+	}
+	.AL {
+		flex-direction: column;
+		padding-bottom: 0;
+	}
+	.ALEast {
+		margin-bottom: 8%;
+	}
+	.ALCentral {
+		margin-bottom: 8%;
+	}
+	.ALWest {
+		margin-bottom: 8%;
+	}
 }

@@ -126,7 +126,8 @@ body {
 	justify-content: space-around;
 }
 #game1Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -164,7 +165,8 @@ body {
 	justify-content: space-around;
 }
 #game2Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -202,11 +204,11 @@ body {
 	justify-content: space-around;
 }
 #game3Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
-	flex-direction: row;
 }
 #game3 a {
 	text-decoration: none;
@@ -242,7 +244,8 @@ body {
 	justify-content: space-around;
 }
 #game4Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -280,7 +283,8 @@ body {
 	justify-content: space-around;
 }
 #game5Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -318,7 +322,8 @@ body {
 	justify-content: space-around;
 }
 #game6Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -356,7 +361,8 @@ body {
 	justify-content: space-around;
 }
 #game7Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -394,7 +400,8 @@ body {
 	justify-content: space-around;
 }
 #game8Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -432,7 +439,8 @@ body {
 	justify-content: space-around;
 }
 #game9Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -470,7 +478,8 @@ body {
 	justify-content: space-around;
 }
 #game10Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -508,7 +517,8 @@ body {
 	justify-content: space-around;
 }
 #game11Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -546,7 +556,8 @@ body {
 	justify-content: space-around;
 }
 #game12Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -584,7 +595,8 @@ body {
 	justify-content: space-around;
 }
 #game13Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -622,7 +634,8 @@ body {
 	justify-content: space-around;
 }
 #game14Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -660,7 +673,8 @@ body {
 	justify-content: space-around;
 }
 #game15Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -698,7 +712,8 @@ body {
 	justify-content: space-around;
 }
 #game16Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -736,7 +751,8 @@ body {
 	justify-content: space-around;
 }
 #game17Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -774,7 +790,8 @@ body {
 	justify-content: space-around;
 }
 #game18Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -812,7 +829,8 @@ body {
 	justify-content: space-around;
 }
 #game19Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -850,7 +868,8 @@ body {
 	justify-content: space-around;
 }
 #game20Times {
-	padding-top: 20px;
+	padding-top: 4%;
+	padding-bottom: 2%;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -862,6 +881,15 @@ body {
 }
 #topbot20 {
 	padding-right: 2%;
+}
+/* ------------------------------------------------ */
+.disclaimer {
+	color: #faac04;
+	font-family: "Radio Canada Big";
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	padding-top: 2%;
 }
 /* ------------------------------------------------ */
 @media only screen and (max-width: 768px) {
@@ -983,6 +1011,66 @@ body {
 	}
 	#game20 {
 		width: 100%;
+	}
+	#game1Names {
+		font-size: 18px;
+	}
+	#game2Names {
+		font-size: 18px;
+	}
+	#game3Names {
+		font-size: 18px;
+	}
+	#game4Names {
+		font-size: 18px;
+	}
+	#game5Names {
+		font-size: 18px;
+	}
+	#game6Names {
+		font-size: 18px;
+	}
+	#game7Names {
+		font-size: 18px;
+	}
+	#game8Names {
+		font-size: 18px;
+	}
+	#game9Names {
+		font-size: 18px;
+	}
+	#game10Names {
+		font-size: 18px;
+	}
+	#game11Names {
+		font-size: 18px;
+	}
+	#game12Names {
+		font-size: 18px;
+	}
+	#game13Names {
+		font-size: 18px;
+	}
+	#game14Names {
+		font-size: 18px;
+	}
+	#game15Names {
+		font-size: 18px;
+	}
+	#game16Names {
+		font-size: 18px;
+	}
+	#game17Names {
+		font-size: 18px;
+	}
+	#game18Names {
+		font-size: 18px;
+	}
+	#game19Names {
+		font-size: 18px;
+	}
+	#game20Names {
+		font-size: 18px;
 	}
 }
 /* ------------------------------------------------ */
